@@ -5,6 +5,9 @@ import Hero from '@/components/Hero'
 import Values from '@/components/Values'
 import Teachers from '@/components/Teacher'
 import Student from '@/components/Student'
+import MoreInfoModal from '@/components/MoreInfoModel'
+import Cta from '@/components/Cta'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -25,6 +28,9 @@ export default function Home() {
       <Values />
       <Teachers />
       <Student />
+      <MoreInfoModal />
+      <Cta /> 
+      <Footer />
     </div>
   );
 }
