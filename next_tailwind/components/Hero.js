@@ -16,9 +16,7 @@ const Hero = () => {
               Learn at your own pace, with lifetime{" "}
               <br className="lg:flex hidden" /> access on mobile and desktop
             </p>
-            <button className="btn btn-sm lg:btn-lg bg-[#524fd5] text-white rounded-full border-none w-36 lg:w-44 capitalize">
-              Get Started
-            </button>
+            <button className="btn bg-[#524fd5] text-white rounded-full border-none w-36 h-10 hover:bg-blue-700">Get Started</button>  
           </div>
           <img src="/assets/hero.png" alt="" />
         </div>
