@@ -15,7 +15,7 @@ const Cta = () => {
           className="px-5 py-5 rounded-full w-72 lg:w-96 outline-none bg-[#f8fafe]"
           placeholder="enter a email"
         />
-        <button class="bg-[#524fd5] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+        <button className="bg-[#524fd5] hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
           Sent
         </button>
       </div>
